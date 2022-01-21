@@ -117,13 +117,15 @@ body {
 .div-1, .div-2, .div-3 {
   color: #fff;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
+  font-size: 1.1em;
+  background-color: #a059f1;
   height: 300px;
   display: flex;
   width: 30%;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  border: rgb(214, 124, 202) solid 0.116em;
 }
 
 
