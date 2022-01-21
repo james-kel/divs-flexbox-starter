@@ -99,37 +99,88 @@ textarea {
 html {
   background-color: #fff;
   height: 100%;
+  width: 100%;
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Montserrat', sans-serif;
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
+  width: 100%;
 }
 
 .wrapper {
   font-weight: 700;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
+header,
+footer {
+  color: rgb(143, 139, 139);
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+header {
+    font-size: 4em;
+}
+
+main {
+  color: rgb(143, 139, 139);
+  height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+  }
+
 .div-1, .div-2, .div-3 {
-  color: #fff;
+  color: rgb(143, 139, 139);
   line-height: 1.5em;
-  font-size: 1.1em;
-  background-color: #a059f1;
-  height: 300px;
+  font-size: 0.9em;
+  height: 200px;
   display: flex;
   width: 30%;
   justify-content: center;
   align-items: center;
   text-align: center;
-  border: rgb(214, 124, 202) solid 0.116em;
+  padding: 0 0.4em;
 }
 
+.div-2 {
+    border-left:  rgb(143, 139, 139) solid 0.01em;
+    border-right: rgb(143, 139, 139)solid 0.01em;
+}
 
+.cam{
+    font-family: 'Fredericka the Great', cursive;
+}
 
+strong {
+    text-transform: capitalize;
+    text-decoration: black;
+}
+
+.ld {
+    font-family: 'Cinzel', serif;
+}
+
+.chill {
+    font-family: 'Homemade Apple', cursive;
+}
+
+.james {
+    font-family: 'Permanent Marker', cursive;
+    text-transform: lowercase;
+}
 
 /* ==========================================================================
    Helper classes
